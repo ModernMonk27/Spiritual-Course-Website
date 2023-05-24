@@ -131,3 +131,45 @@ video#bgvedio{
   .navbar-custom .navbar-link:hover {
     color: #fff9f9;
   }
+
+/* STYLE THE SOUL SECTION */
+
+#soul{
+    background-color: transparent;
+    color : royalblue;
+    font-size: 150px;
+    padding-top: 15%;
+    text-align: center;
+
+
+}
+
+#soul h1{
+    margin-bottom: 20px;
+}
+#soul h2{
+    margin-bottom: 30px;
+}
+
+#soul .btn{
+
+    background-color: rgb(29, 167,179);
+    font-size: 30px;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+
+    
+
+
+}
+
+#soul .btn:hover{
+
+    background-color: rgba(29, 167,179,0.5);
+    
+
+    
+
+
+}
