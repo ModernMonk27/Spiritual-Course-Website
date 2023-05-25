@@ -173,3 +173,100 @@ video#bgvedio{
 
 
 }
+/*STYLE INSIDEE SECTION*/
+
+#inside{
+
+    text-align: center;
+    padding: 100px;
+    color:black;
+
+}
+#inside h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#inside p{
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 20px;
+    margin-bottom: 20px;
+} 
+.insideimage{
+    height: 120px;
+}   
+
+/*STYLE CAROUSLE SLIDE*/
+
+
+#purpose{
+  padding-top: 100px;
+}
+#myCarousel{
+
+  width: 60%;
+  margin: 0 auto;
+
+
+
+}
+.carousel-inner .item img{
+  height: 400px;
+  margin: 0 auto;
+}
+.carousel-caption{
+  position: relative;
+  left: auto;
+  right: auto;
+  height: 200px;
+  color:yellowgreen;
+  font-weight: bold;
+}
+
+/* STYLE FOR SMALL DEVICES*/
+
+@media (max-width:768px){
+
+  .carousel-inner .item img{
+    height: 300px;
+
+  }
+  .carousel-inner h2{
+    font-size: 23px;
+  }
+}
+@media (max-width:400px){
+
+  .carousel-inner .item img{
+    height: 200px;
+
+  }
+  .carousel-inner h2{
+    font-size: 17px;
+  }
+  .navbar-custom .navbar-brand{
+    font-size: 12px;
+  }
+}
+
+@media (max-width:768px){
+
+  body{
+    background:url(images/prairie.jpg) center center fixed ;
+    background-size:cover ;
+  }
+  video#bgvedio{
+    display: none;
+  }
+
+}
+/*STYLE FOOTER*/
+
+.footer{
+  background-color: rgba(red, green, blue, 0.1);
+  font-size: 15px;
+  padding: 10px 0;
+  margin-top: 150px;
+  color: white;
+}
